@@ -4707,6 +4707,56 @@
           "margin_bottom_tab": 65,
           "margin_bottom": 65
         }
+      },
+      "16441025453b57907a": {
+        "type": "home-featured-products",
+        "settings": {
+          "bg_color": "",
+          "layout_style": "layout_style_5",
+          "display_banner": true,
+          "banner_is": "left",
+          "image": "shopify:\/\/shop_images\/furniture-featured-products.png",
+          "banner_heading": "",
+          "font_size_banner_heading": "",
+          "color_banner_heading": "#fff",
+          "banner_sub_heading": "",
+          "font_size_banner_sub_heading": "",
+          "color_banner_sub_heading": "#fff",
+          "banner_des": "",
+          "font_size_banner_des": "",
+          "color_banner_des": "#fff",
+          "banner_button": "",
+          "link": "",
+          "banner_button_2": "",
+          "link_2": "",
+          "bg_banner_button": "#fff",
+          "border_banner_button": "#fff",
+          "color_banner_button": "#232323",
+          "bg_color_box_style_2": "#ffffff",
+          "border_color_box_style_2": "#bcbcbc",
+          "featured_products_title": "Furniture",
+          "color_text_title": "",
+          "font_size_title": "",
+          "text_alignment": "left",
+          "featured_products_des": "",
+          "featured_products_text_link": "View All",
+          "featured_products_link": "",
+          "color_text_link": "#202020",
+          "title_style": "style_4",
+          "show_slider_featured_collection": "furniture",
+          "slider_featured_limit_all": 20,
+          "collection_results_per_row1": "4",
+          "featured_products_title_2": "Trending Now",
+          "featured_products_text_link_2": "View All",
+          "featured_products_link_2": "",
+          "show_slider_featured_collection_2": "",
+          "display_list_collection": false,
+          "text_list": "View all categories",
+          "url_list": "",
+          "margin_bottom_mb": 40,
+          "margin_bottom_tab": 40,
+          "margin_bottom": 40
+        }
       }
     },
     "content_for_index": [
@@ -4729,7 +4779,8 @@
       "162037703241154283",
       "16203771362d77c27b",
       "1620377296d98a745a",
-      "1616469666f35ea260"
+      "1616469666f35ea260",
+      "16441025453b57907a"
     ]
   },
   "presets": {
