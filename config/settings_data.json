@@ -3705,6 +3705,7 @@
           "16163990982d7aee8f-0": {
             "type": "largeImg",
             "settings": {
+              "image": "shopify:\/\/shop_images\/laptop-banner.png",
               "display_parallax": false,
               "dpl_down_arrow": false,
               "height_img_parallax": "970px",
