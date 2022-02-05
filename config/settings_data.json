@@ -3748,7 +3748,7 @@
         "settings": {
           "layout": "full",
           "layout_style": "layout_style_1",
-          "display_bg_banner": true,
+          "display_bg_banner": false,
           "bg_color_banner": "#f5f5f5",
           "widget_title": "",
           "widget_des": "",
@@ -4314,7 +4314,7 @@
           "url_list": "",
           "margin_bottom_mb": 20,
           "margin_bottom_tab": 10,
-          "margin_bottom": 10
+          "margin_bottom": 0
         }
       },
       "brand-supermarket": {
@@ -4762,8 +4762,9 @@
     "content_for_index": [
       "16161244289c9ebde8",
       "1616151262b6b126e0",
-      "16163990982d7aee8f",
       "1617006665c62a0edf",
+      "16163990982d7aee8f",
+      "16441025453b57907a",
       "16203709005ea50160",
       "161700615046271940",
       "16163994522c9c9866",
@@ -4779,8 +4780,7 @@
       "162037703241154283",
       "16203771362d77c27b",
       "1620377296d98a745a",
-      "1616469666f35ea260",
-      "16441025453b57907a"
+      "1616469666f35ea260"
     ]
   },
   "presets": {
