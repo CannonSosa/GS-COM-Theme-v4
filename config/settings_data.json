@@ -3748,7 +3748,7 @@
         "settings": {
           "layout": "full",
           "layout_style": "layout_style_1",
-          "display_bg_banner": true,
+          "display_bg_banner": false,
           "bg_color_banner": "#f5f5f5",
           "widget_title": "",
           "widget_des": "",
