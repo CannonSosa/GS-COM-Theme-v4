@@ -3230,50 +3230,6 @@
       },
       "navigation-08": {
         "type": "navigation-08",
-        "blocks": {
-          "de270f32-39c0-4b35-9a21-b9e4fc40f3b6": {
-            "type": "style_1",
-            "settings": {
-              "megamenu_items_1": "electronics",
-              "title_featured_product": "Featured Products",
-              "featured_product": "hentum-tosmois-de-laptop-hamo-dincidunts",
-              "link_banner_first_style_1": ""
-            }
-          },
-          "0995553a-0553-4dda-998d-00c0733c0821": {
-            "type": "style_2",
-            "settings": {
-              "megamenu_items_2": "clothing, shoes",
-              "link_banner_first_style_2": "",
-              "link_banner_second_style_2": "",
-              "link_banner_third_style_2": ""
-            }
-          },
-          "7c02301d-2075-47f5-9b5e-02d9b9c2e733": {
-            "type": "style_3",
-            "settings": {
-              "megamenu_items_3": "home, furniture",
-              "link_banner_first_style_3": "",
-              "link_banner_second_style_3": "",
-              "link_banner_third_style_3": "",
-              "link_banner_four_style_3": "",
-              "link_banner_five_style_3": ""
-            }
-          },
-          "73940c60-4c18-4164-8825-ecf145677fbb": {
-            "type": "style_4",
-            "settings": {
-              "megamenu_items_4": "toys, games",
-              "link_banner_first_style_4": ""
-            }
-          }
-        },
-        "block_order": [
-          "de270f32-39c0-4b35-9a21-b9e4fc40f3b6",
-          "0995553a-0553-4dda-998d-00c0733c0821",
-          "7c02301d-2075-47f5-9b5e-02d9b9c2e733",
-          "73940c60-4c18-4164-8825-ecf145677fbb"
-        ],
         "settings": {
           "display_fixtop_menu": true,
           "horizontal_linklist": "top-nav-bar",
@@ -3318,7 +3274,7 @@
           "bg_lb_hot": "#ffbb49",
           "color_lb_hot": "#ffffff",
           "display_megamenu": true,
-          "bg_style_new_top": "rgba(0,0,0,0)",
+          "bg_style_new_top": "#f7f7f7",
           "bg_style_new": "#ffffff",
           "bg_color_arrow": "#8c8c8c",
           "color_arrow": "#ffffff"
