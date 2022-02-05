@@ -3748,7 +3748,7 @@
         "settings": {
           "layout": "full",
           "layout_style": "layout_style_1",
-          "display_bg_banner": false,
+          "display_bg_banner": true,
           "bg_color_banner": "#f5f5f5",
           "widget_title": "",
           "widget_des": "",
@@ -4269,42 +4269,12 @@
       },
       "1617006665c62a0edf": {
         "type": "home-featured-products",
-        "blocks": {
-          "d07bb5dd-e3cb-41cd-b043-0201884cadcc": {
-            "type": "block",
-            "settings": {
-              "text": "For Men",
-              "button_text": "Shop now",
-              "button_link": ""
-            }
-          },
-          "1a19c1ca-bd2c-45eb-8436-b8fda20a2453": {
-            "type": "block",
-            "settings": {
-              "text": "For Women",
-              "button_text": "Shop now",
-              "button_link": ""
-            }
-          },
-          "05aba9b1-0660-4e0e-8c45-fc9a01c28369": {
-            "type": "block",
-            "settings": {
-              "text": "For kids",
-              "button_text": "Shop now",
-              "button_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "d07bb5dd-e3cb-41cd-b043-0201884cadcc",
-          "1a19c1ca-bd2c-45eb-8436-b8fda20a2453",
-          "05aba9b1-0660-4e0e-8c45-fc9a01c28369"
-        ],
         "settings": {
           "bg_color": "#f5f5f5",
           "layout_style": "layout_style_6",
           "display_banner": true,
           "banner_is": "left",
+          "image": "shopify:\/\/shop_images\/web-exclusive-banner.png",
           "banner_heading": "",
           "font_size_banner_heading": "",
           "color_banner_heading": "#ffffff",
@@ -4315,7 +4285,7 @@
           "font_size_banner_des": "12px",
           "color_banner_des": "#ffffff",
           "banner_button": "",
-          "link": "",
+          "link": "shopify:\/\/collections\/web-exclusive-deals",
           "banner_button_2": "",
           "link_2": "",
           "bg_banner_button": "#ffffff",
@@ -4323,7 +4293,7 @@
           "color_banner_button": "#232323",
           "bg_color_box_style_2": "#ffffff",
           "border_color_box_style_2": "#bcbcbc",
-          "featured_products_title": "Clothing & Accessories",
+          "featured_products_title": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0383\/9416\/7431\/files\/web-exclusive-deals-icon.png?v=1643940665\" width=\"40\" height=\"40\" style=\"position: relative;top:0px;bottom:0px;margin-right:5px;\"> <span style=\"color:orange;font-size: 30px;\">WEB EXCLUSIVE<\/span> <span style=\"color:red;font-size: 30px;\"> DEALS<\/span>",
           "color_text_title": "#202020",
           "font_size_title": "20px",
           "text_alignment": "left",
@@ -4332,15 +4302,15 @@
           "featured_products_link": "shopify:\/\/collections\/collection-skin-supermarket-5",
           "color_text_link": "#202020",
           "title_style": "style_4",
-          "show_slider_featured_collection": "collection-skin-supermarket-6",
+          "show_slider_featured_collection": "web-exclusive-deals",
           "slider_featured_limit_all": 4,
-          "collection_results_per_row1": "3",
+          "collection_results_per_row1": "4",
           "featured_products_title_2": "Trending Now",
           "featured_products_text_link_2": "",
           "featured_products_link_2": "",
           "show_slider_featured_collection_2": "",
-          "display_list_collection": true,
-          "text_list": "View all categories",
+          "display_list_collection": false,
+          "text_list": "",
           "url_list": "",
           "margin_bottom_mb": 20,
           "margin_bottom_tab": 10,
@@ -4743,13 +4713,13 @@
       "16161244289c9ebde8",
       "1616151262b6b126e0",
       "16163990982d7aee8f",
+      "1617006665c62a0edf",
+      "16203709005ea50160",
+      "161700615046271940",
       "16163994522c9c9866",
       "1620359217c263acdb",
-      "16203709005ea50160",
       "16165606718c10d1a9",
-      "161700615046271940",
       "161614424023174a5e",
-      "1617006665c62a0edf",
       "16203758281614bbfb",
       "161421806706f867ce",
       "1620376317cfa28709",
