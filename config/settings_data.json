@@ -1,6 +1,6 @@
 {
   "current": {
-    "layout_body": "default",
+    "layout_body": "custom_width",
     "custom_width_size": 1600,
     "bg_body_boxed": "#f8f8f8",
     "header_layout": "08",
