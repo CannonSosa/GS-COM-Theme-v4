@@ -3230,6 +3230,26 @@
       },
       "navigation-08": {
         "type": "navigation-08",
+        "blocks": {
+          "cbd6684d-2e32-487c-9aa9-05bbccaf0de7": {
+            "type": "style_5",
+            "settings": {
+              "menu_text_left": "",
+              "megamenu_items_5": "PC, Laptop & Tablets",
+              "skin_style_5": "skin_3",
+              "featured_product": "tablet-1",
+              "featured_product_limit_all": "8",
+              "link_banner_first_style_5": "",
+              "link_banner_second_style_5": "",
+              "title_brand": "Brands by alphabet",
+              "link_brand": "View all brands",
+              "select_page_5": ""
+            }
+          }
+        },
+        "block_order": [
+          "cbd6684d-2e32-487c-9aa9-05bbccaf0de7"
+        ],
         "settings": {
           "display_fixtop_menu": true,
           "horizontal_linklist": "top-nav-bar",
