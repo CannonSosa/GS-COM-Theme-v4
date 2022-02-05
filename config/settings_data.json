@@ -4711,7 +4711,7 @@
       "16441025453b57907a": {
         "type": "home-featured-products",
         "settings": {
-          "bg_color": "",
+          "bg_color": "#f5f5f5",
           "layout_style": "layout_style_5",
           "display_banner": true,
           "banner_is": "left",
