@@ -3313,7 +3313,7 @@
           "font_size_mnu_lv3": "14px",
           "enable_sale": true,
           "lb_sale": "Sale",
-          "sale_item": "",
+          "sale_item": "Web Deals",
           "bg_lb_sale": "#ef6454",
           "color_lb_sale": "#ffffff",
           "enable_new": true,
