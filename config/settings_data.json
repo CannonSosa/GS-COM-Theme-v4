@@ -3748,7 +3748,7 @@
         "settings": {
           "layout": "full",
           "layout_style": "layout_style_1",
-          "display_bg_banner": false,
+          "display_bg_banner": true,
           "bg_color_banner": "#f5f5f5",
           "widget_title": "",
           "widget_des": "",
@@ -4303,7 +4303,7 @@
           "color_text_link": "#202020",
           "title_style": "style_4",
           "show_slider_featured_collection": "web-exclusive-deals",
-          "slider_featured_limit_all": 4,
+          "slider_featured_limit_all": 20,
           "collection_results_per_row1": "4",
           "featured_products_title_2": "Trending Now",
           "featured_products_text_link_2": "",
