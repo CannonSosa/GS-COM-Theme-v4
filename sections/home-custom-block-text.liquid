@@ -1,0 +1,236 @@
+<section class="home-custom-block-text" id="home-custom-block-text-{{ section.id }}">
+<div class="{% if section.settings.layout == 'default' %}container{% elsif section.settings.layout == 'full' %}container-fluid{% else %}container-padd60{% endif %}">
+<div class="bg-custom-block-text{% if section.settings.layout_style == 'style_1'%} style_1{% else %} style_2{% endif%}">
+  <div class="row disable-srollbar">  
+
+    {% for block in section.blocks %}
+        <div class="custom-text-item">
+            {% if block.settings.link %}
+                <a id="block-{{block.id}}" href="{{ block.settings.link }}" title="">
+                    <span class="custom-text">
+                      {% render 'multilang' with block.settings.text %} 
+                    </span>
+                </a>
+            {% else %}
+                <span class="custom-text">
+                  {% render 'multilang' with block.settings.text %} 
+                </span>
+            {% endif %}
+        </div>
+        <style type="text/css">
+            #block-{{block.id}} .custom-text {
+                border: 1px solid {{ block.settings.border }};
+                background-color: {{ block.settings.bg_color }};
+                color: {{ block.settings.color }};
+            }
+        </style>
+    {% endfor %}
+
+  </div>
+</div>    
+</div>
+</section>
+
+<style>
+@media (max-width: 767px) {
+    #home-custom-block-text-{{ section.id }} {
+        margin-bottom: {{ section.settings.margin_bottom_mb }}px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #home-custom-block-text-{{ section.id }} {
+        margin-bottom: {{ section.settings.margin_bottom_tab }}px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #home-custom-block-text-{{ section.id }} {
+        margin-bottom: {{ section.settings.margin_bottom }}px;
+    }
+}
+
+#home-custom-block-text-{{ section.id }} {
+    position: relative;
+}
+
+ {% if section.settings.layout == 'full' %}
+    #home-custom-block-text-{{ section.id }} {
+        background-color: {{ section.settings.bg_color_block }};
+        border-top: 1px solid {{ section.settings.border_block }};
+        padding: 10px 0;
+    } 
+{% else %}
+     #home-custom-block-text-{{ section.id }} .bg-custom-block-text {
+        background-color: {{ section.settings.bg_color_block }};
+        border-top: 1px solid {{ section.settings.border_block }};
+        padding: 10px 0;
+    }      
+{% endif %}
+
+#home-custom-block-text-{{ section.id }} .custom-text {
+    font-size: {{section.settings.font_size}};
+    font-weight: {{section.settings.font_weight_bold}};
+}
+
+</style>
+
+{% schema %}
+{
+    "name": "Custom Block Text",
+    "class": "home-custom-block-text-sections",     
+    "settings": [
+        {
+            "type": "select",
+            "id": "layout",
+            "label": "Layout:",
+            "options": [
+                {
+                    "value": "default",
+                    "label": "Default"
+                },
+                {
+                    "value": "padd_60",
+                    "label": "Boxed"
+                },
+                {
+                    "value": "full",
+                    "label": "Full Width"
+                }
+            ],
+            "default": "default"
+        },
+        {
+            "type": "select",
+            "id": "layout_style",
+            "label": "Layout Style:",
+            "options": [
+              {
+                "value": "style_1",
+                "label": "Style 1" 
+              },
+              { 
+                "value": "style_2",
+                "label": "Style 2" 
+              }
+            ],
+            "default": "style_1"
+        },
+        {
+            "type" : "color",
+            "id": "bg_color_block",
+            "label" : "Background Block",
+            "default" : "transparent"
+        },
+        {
+            "type": "color",
+            "id": "border_block",
+            "label" : "Border Block",
+            "default" : "#fafafa"
+        },
+        {
+            "type": "text",
+            "id": "font_size",
+            "label": "Font Size",
+            "default": "12px",
+            "info": "Default Value: 12px"
+        },
+        {
+            "type": "select",
+            "id": "font_weight_bold",
+            "label": "Font Weight",
+            "default": "400",
+            "options": [
+              {
+                "value": "400",
+                "label": "Normal" 
+              },
+              { 
+                "value": "500",
+                "label": "Medium" 
+              },
+              { 
+                "value": "600",
+                "label": "Semi Bold"
+              },
+              { 
+                "value": "700",
+                "label": "Bold"
+              }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Margin Bottom:"
+        },
+        {
+            "type": "range",
+            "id": "margin_bottom_mb",
+            "label": "Mobile",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "margin_bottom_tab",
+            "label": "Tablet",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "margin_bottom",
+            "label": "Desktop",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 40
+        }   
+    ],
+    "blocks" : [
+        {
+            "type" : "Text",
+            "name" : "Text",
+            "settings":[
+                {
+                    "type" : "text",
+                    "id" : "text",
+                    "label" : "Text",
+                    "default" : "Cosmopolis"
+                },
+                {
+                    "type" : "url",
+                    "id" : "link",
+                    "label" : "Link"
+                },
+                {
+                    "type" : "color",
+                    "id" : "color",
+                    "label" : "Text color",
+                    "default" : "#232323"
+                },
+                {
+                    "type" : "color",
+                    "id": "bg_color",
+                    "label" : "Background color",
+                    "default" : "#f9ede1"
+                },
+                {
+                    "type" : "color",
+                    "id" : "border",
+                    "label" : "Border color",
+                    "default" : "#f9ede1"
+                }
+            ]
+        }
+    ],
+    "presets": [{
+        "name": "Custom Block Text",
+        "category": "text"
+    }]
+}
+{% endschema %}
