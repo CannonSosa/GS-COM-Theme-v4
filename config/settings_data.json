@@ -3241,14 +3241,47 @@
               "featured_product_limit_all": "8",
               "link_banner_first_style_5": "",
               "link_banner_second_style_5": "",
-              "title_brand": "Brands by alphabet",
-              "link_brand": "View all brands",
+              "title_brand": "",
+              "link_brand": "",
               "select_page_5": ""
+            }
+          },
+          "7fdd9171-5cfb-435d-97fb-ae620c47ce22": {
+            "type": "style_3",
+            "settings": {
+              "megamenu_items_3": "Computer Components",
+              "banner_first_style_3": "shopify:\/\/shop_images\/Computer_Hardware.png",
+              "link_banner_first_style_3": "",
+              "banner_second_style_3": "shopify:\/\/shop_images\/Mice_Stylus_and_Controllers.png",
+              "link_banner_second_style_3": "",
+              "banner_third_style_3": "shopify:\/\/shop_images\/Keyboard_and_Accessories.png",
+              "link_banner_third_style_3": "",
+              "banner_four_style_3": "shopify:\/\/shop_images\/Headset_Speakerss_Webcams.png",
+              "link_banner_four_style_3": "",
+              "banner_five_style_3": "shopify:\/\/shop_images\/Other_Peripherals.png",
+              "link_banner_five_style_3": ""
+            }
+          },
+          "07110514-646d-400f-bb27-872d44b28296": {
+            "type": "style_3",
+            "settings": {
+              "megamenu_items_3": "Networking",
+              "banner_first_style_3": "shopify:\/\/shop_images\/Wireless_Networking.png",
+              "link_banner_first_style_3": "",
+              "banner_second_style_3": "shopify:\/\/shop_images\/Wired_Networking.png",
+              "link_banner_second_style_3": "",
+              "banner_third_style_3": "shopify:\/\/shop_images\/Network_Cable.png",
+              "link_banner_third_style_3": "",
+              "banner_four_style_3": "shopify:\/\/shop_images\/Security.png",
+              "link_banner_four_style_3": "",
+              "link_banner_five_style_3": ""
             }
           }
         },
         "block_order": [
-          "cbd6684d-2e32-487c-9aa9-05bbccaf0de7"
+          "cbd6684d-2e32-487c-9aa9-05bbccaf0de7",
+          "7fdd9171-5cfb-435d-97fb-ae620c47ce22",
+          "07110514-646d-400f-bb27-872d44b28296"
         ],
         "settings": {
           "display_fixtop_menu": true,
