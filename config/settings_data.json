@@ -4757,6 +4757,87 @@
           "margin_bottom_tab": 40,
           "margin_bottom": 40
         }
+      },
+      "16441066292f3fe569": {
+        "type": "home-featured-products",
+        "blocks": {
+          "6aafe7f4-77db-4606-8dec-cb41d5263480": {
+            "type": "block",
+            "settings": {
+              "text": "cat 1",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
+          "c30431b7-b83f-426b-bdd0-16c951c92451": {
+            "type": "block",
+            "settings": {
+              "text": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
+          "288fa130-8801-4603-ab67-c30fd7a833c8": {
+            "type": "block",
+            "settings": {
+              "text": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "6aafe7f4-77db-4606-8dec-cb41d5263480",
+          "c30431b7-b83f-426b-bdd0-16c951c92451",
+          "288fa130-8801-4603-ab67-c30fd7a833c8"
+        ],
+        "settings": {
+          "bg_color": "",
+          "layout_style": "layout_style_6",
+          "display_banner": true,
+          "banner_is": "left",
+          "image": "shopify:\/\/shop_images\/web-exclusive-banner.png",
+          "banner_heading": "#CAMPAIGNS",
+          "font_size_banner_heading": "40px",
+          "color_banner_heading": "#fff",
+          "banner_sub_heading": "Spring Summer’08",
+          "font_size_banner_sub_heading": "13px",
+          "color_banner_sub_heading": "#fff",
+          "banner_des": "Phasellus lorem malesuada ligula pulvinar de cosmopolis",
+          "font_size_banner_des": "12px",
+          "color_banner_des": "#fff",
+          "banner_button": "Shop Now",
+          "link": "",
+          "banner_button_2": "Shop Now",
+          "link_2": "",
+          "bg_banner_button": "#fff",
+          "border_banner_button": "#fff",
+          "color_banner_button": "#232323",
+          "bg_color_box_style_2": "#ffffff",
+          "border_color_box_style_2": "#bcbcbc",
+          "featured_products_title": "Trending Now",
+          "color_text_title": "",
+          "font_size_title": "",
+          "text_alignment": "left",
+          "featured_products_des": "",
+          "featured_products_text_link": "",
+          "featured_products_link": "",
+          "color_text_link": "#ba7a2d",
+          "title_style": "style_1",
+          "show_slider_featured_collection": "",
+          "slider_featured_limit_all": 10,
+          "collection_results_per_row1": "5",
+          "featured_products_title_2": "Trending Now",
+          "featured_products_text_link_2": "",
+          "featured_products_link_2": "",
+          "show_slider_featured_collection_2": "",
+          "display_list_collection": true,
+          "text_list": "View all categories",
+          "url_list": "",
+          "margin_bottom_mb": 40,
+          "margin_bottom_tab": 40,
+          "margin_bottom": 0
+        }
       }
     },
     "content_for_index": [
@@ -4780,7 +4861,8 @@
       "162037703241154283",
       "16203771362d77c27b",
       "1620377296d98a745a",
-      "1616469666f35ea260"
+      "1616469666f35ea260",
+      "16441066292f3fe569"
     ]
   },
   "presets": {
